@@ -9,7 +9,7 @@
 ### CloudFlare Workers反代代码（可分别用两个账号的应用程序名（`path路径`、`协议`、`UUID`保持一致），单双号天分别执行，那一个月就有550+550小时（每个账号一个月免费使用550小时））
 <details>
 <summary>CloudFlare Workers单账户反代代码</summary>
-
+<p><a href="https://dashboard.heroku.com/new?template=https://github.com/allinsimple/feifei"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 ```js
 addEventListener(
     "fetch",event => {
